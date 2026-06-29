@@ -26,10 +26,10 @@ jobs:
           echo "👤 Current user:" && whoami
           echo "📁 Working directory:" && pwd
 
-      - name: Install figlet
-        run: |
-          sudo apt-get update -y
-          sudo apt-get install -y figlet
+      #- name: Install figlet
+      #  run: |
+      #    sudo apt-get update -y
+      #    sudo apt-get install -y figlet
 
       - name: Print an ASCII message
         run: |
